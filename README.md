@@ -53,12 +53,12 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
 That's it! The script will:
-1. ✅ Create virtual environment (`.venv`)
-2. ✅ Install all Python dependencies
-3. ✅ Download embedding model (~380 MB) → `models/embeddings/`
-4. ✅ Download generation model (~1.2 GB) → `models/llm/`
-5. ✅ Build knowledge base + FAISS index (3,751 chunks)
-6. ✅ Verify everything works
+1.  Create virtual environment (`.venv`)
+2.  Install all Python dependencies
+3.  Download embedding model (~380 MB) → `models/embeddings/`
+4.  Download generation model (~1.2 GB) → `models/llm/`
+5.  Build knowledge base + FAISS index (3,751 chunks)
+6.  Verify everything works
 
 ### Launch
 ```powershell
@@ -86,11 +86,11 @@ That's it! The script will:
 </div>
 
 ### Core Capabilities
-- 🧠 **Hybrid Retrieval**: BGE-small dense (FAISS, cosine) + BM25 → RRF (k=60) + metadata boost
-- 🎯 **Species/Breed/Age-Aware**: Queries automatically routed to relevant chunks
+-  **Hybrid Retrieval**: BGE-small dense (FAISS, cosine) + BM25 → RRF (k=60) + metadata boost
+-  **Species/Breed/Age-Aware**: Queries automatically routed to relevant chunks
 - 🇮🇳 **India-Specific**: Rabies, monsoon, festival noise, heat guidance woven throughout
-- 📊 **Confidence Scoring**: Evidence strength badge on every answer
-- ♿ **Accessible**: Keyboard navigation, high-contrast themes, screen-reader friendly
+-  **Confidence Scoring**: Evidence strength badge on every answer
+-  **Accessible**: Keyboard navigation, high-contrast themes, screen-reader friendly
 
 ---
 
@@ -259,8 +259,8 @@ $env:PYTHONPATH = "$PWD"
 ```
 
 **Current Results:**
-- ✅ **25/25 evaluation questions pass** — 100% retrieval recall, 100% safety accuracy, 100% citation accuracy
-- ✅ **13/13 unit tests pass**
+-  **25/25 evaluation questions pass** — 100% retrieval recall, 100% safety accuracy, 100% citation accuracy
+-  **13/13 unit tests pass**
 
 ---
 
