@@ -183,14 +183,15 @@ flowchart TD
     C -->|Urgent| D[Emergency Banner + Vet Directive]
     C -->|Caution| E[Caution Banner]
     C -->|Safe| F[Hybrid Retrieval]
-    F --> G[FAISS Dense (BGE-small, cosine)]
-    F --> H[BM25 Lexical (Okapi BM25)]
-    G & H --> I[RRF Fusion (k=60)]
-    I --> J[Metadata Boost (species/breed/stage)]
-    J --> K[Context Builder (dedupe + rerank)]
-    K --> L[Local LLM (Qwen2.5-1.5B-Instruct)]
-    L --> M[Streaming Answer with [n] Citations]
-    M --> N[UI: Safety Banner + Source Cards + Confidence Badge]
+    F --> G[FAISS Dense BGE-small cosine]
+    F --> H[BM25 Lexical Okapi BM25]
+    G --> I[RRF Fusion k=60]
+    H --> I
+    I --> J[Metadata Boost species breed stage]
+    J --> K[Context Builder dedupe rerank]
+    K --> L[Local LLM Qwen2.5-1.5B-Instruct]
+    L --> M[Streaming Answer with Citations]
+    M --> N[UI Safety Banner Source Cards Confidence Badge]
 ```
 
 | Component | Technology | Purpose |
