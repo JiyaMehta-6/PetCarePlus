@@ -2,10 +2,8 @@
   <img src="assets/banner.svg" alt="PetCare+ Banner" width="100%">
 </p>
 
+
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/petcareplus/actions"><img src="https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/petcareplus/ci.yml?label=CI&logo=github" alt="CI Status"></a>
-  <a href="https://github.com/YOUR_USERNAME/petcareplus/releases"><img src="https://img.shields.io/github/v/release/YOUR_USERNAME/petcareplus?include_prereleases&label=Latest%20Release&logo=github" alt="Latest Release"></a>
-  <a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/License-GPL--3.0-or--later-blue.svg" alt="License: GPL-3.0-or-later"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+"></a>
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.13%2B-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch 2.13+"></a>
   <a href="https://pyside.org/"><img src="https://img.shields.io/badge/PySide6-6.11-41CD52?logo=qt&logoColor=white" alt="PySide6 6.11"></a>
@@ -13,15 +11,18 @@
   <a href="https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct"><img src="https://img.shields.io/badge/LLM-Qwen2.5--1.5B--Instruct-FFD21E?logo=huggingface&logoColor=black" alt="Qwen2.5-1.5B-Instruct"></a>
 </p>
 
+
 <p align="center">
   <strong>🐾 Evidence-grounded, 100% offline pet-care guidance for 70 species — running entirely on your Windows machine.</strong>
 </p>
+
 
 <p align="center">
   <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick%20Start-Setup%20Guide-4CAF50?style=for-the-badge&logo=rocket" alt="Quick Start"></a>
   <a href="#-features"><img src="https://img.shields.io/badge/Features-Explore-2196F3?style=for-the-badge&logo=star" alt="Features"></a>
   <a href="#-supported-pets"><img src="https://img.shields.io/badge/Supported%20Pets-70%20Species-FF9800?style=for-the-badge&logo=paw" alt="Supported Pets"></a>
 </p>
+
 
 ---
 
@@ -51,9 +52,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\setup_windows.ps1
 ```
 
-> **Note:** Replace `YOUR_USERNAME` in the badge URLs (top of README) with your actual GitHub username for CI/Release badges to work.
-```
-
 That's it! The script will:
 1. ✅ Create virtual environment (`.venv`)
 2. ✅ Install all Python dependencies
@@ -80,9 +78,9 @@ That's it! The script will:
 | ![Home](assets/home.svg) | ![Pets](assets/pets.svg) | ![Chat](assets/chat.svg) | ![KB](assets/kb.svg) |
 | Logo, quick actions, theme toggle | Add/edit pets (species, breed, age) | Streaming answers with `[n]` source cards | Search 3,751 curated chunks |
 
-| 🔍 **Source Cards** | ⚙️ **Settings** | 🌓 **Live Theming** | 📜 **History** |
-|:---:|:---:|:---:|:---:|
-| ![Sources](assets/sources.svg) | ![Settings](assets/settings.svg) | ![Theme](assets/theme.svg) | ![History](assets/history.svg) |
+| 🔍 **Source Cards**  | 🌓 **Live Theming** | 📜 **History** |
+|:---:|:---:|:---:|
+| ![Sources](assets/sources.svg) | ![Theme](assets/theme.svg) | ![History](assets/history.svg) |
 | Full chunk text, authority badge | Light/Dark/System + model path | Instant switch, OS-follow | Per-turn delete + clear all |
 
 </div>
@@ -180,19 +178,19 @@ Freshwater Turtle • Bearded Dragon • **Leopard Gecko** • **Corn Snake** �
 
 ```mermaid
 flowchart TD
-    A[👤 User Query] --> B[🔍 Query Understanding]
-    B --> C{🛡️ Safety Layer}
-    C -->|Urgent| D[🚨 Emergency Banner + Vet Directive]
-    C -->|Caution| E[⚠️ Caution Banner]
-    C -->|Safe| F[🔬 Hybrid Retrieval]
-    F --> G[📊 FAISS Dense\n(BGE-small, cosine)]
-    F --> H[📝 BM25 Lexical\n(Okapi BM25)]
-    G & H --> I[🔀 RRF Fusion\n(k=60)]
-    I --> J[📈 Metadata Boost\n(species/breed/stage)]
-    J --> K[🏗 Context Builder\n(dedupe + rerank)]
-    K --> L[🤖 Local LLM\n(Qwen2.5-1.5B-Instruct)]
-    L --> M[💬 Streaming Answer\nwith [n] Citations]
-    M --> N[🖥️ UI: Safety Banner + Source Cards + Confidence Badge]
+    A[User Query] --> B[Query Understanding]
+    B --> C{Safety Layer}
+    C -->|Urgent| D[Emergency Banner + Vet Directive]
+    C -->|Caution| E[Caution Banner]
+    C -->|Safe| F[Hybrid Retrieval]
+    F --> G[FAISS Dense (BGE-small, cosine)]
+    F --> H[BM25 Lexical (Okapi BM25)]
+    G & H --> I[RRF Fusion (k=60)]
+    I --> J[Metadata Boost (species/breed/stage)]
+    J --> K[Context Builder (dedupe + rerank)]
+    K --> L[Local LLM (Qwen2.5-1.5B-Instruct)]
+    L --> M[Streaming Answer with [n] Citations]
+    M --> N[UI: Safety Banner + Source Cards + Confidence Badge]
 ```
 
 | Component | Technology | Purpose |
@@ -292,7 +290,7 @@ The knowledge base is **developer-curated and synthesised** from openly availabl
 
 ## 📄 License
 
-**Code:** [GPL-3.0-or-later](LICENSE)  
+**Code:** [GPL-3.0-or-later](LICENSE)
 **Knowledge Content:** Developer-curated synthesis of openly available authoritative veterinary guidance; see per-chunk `source`/`license` metadata.
 
 ---
