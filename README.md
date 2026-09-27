@@ -28,7 +28,7 @@
 
 ## 🌟 Why PetCare+?
 
-| 🔒 **Private by Design** | 💰 **Zero API Cost** | 📴 **Fully Offline** | 📚 **Cited, Not Hallucinated** | ⚠️ **Safety First** |
+|  **Private by Design** |  **Zero API Cost** |  **Fully Offline** |  **Cited, Not Hallucinated** |  **Safety First** |
 |:---:|:---:|:---:|:---:|:---:|
 | All data stays on your D: drive — pets, history, settings are plain JSON | No OpenAI, Anthropic, or cloud bills — everything runs locally | Works without internet after one-time model download | Every claim has a `[n]` citation linking to a real retrieved source | Built-in safety layer flags emergencies (poisoning, GDV, blocked cat, etc.) |
 
@@ -73,12 +73,12 @@ That's it! The script will:
 
 <div align="center">
 
-| 🏠 **Home Dashboard** | 🐕 **Pet Profiles** | 💬 **Chat with Citations** | 📚 **Knowledge Browser** |
+|  **Home Dashboard** |  **Pet Profiles** |  **Chat with Citations** |  **Knowledge Browser** |
 |:---:|:---:|:---:|:---:|
 | ![Home](assets/home.svg) | ![Pets](assets/pets.svg) | ![Chat](assets/chat.svg) | ![KB](assets/kb.svg) |
 | Logo, quick actions, theme toggle | Add/edit pets (species, breed, age) | Streaming answers with `[n]` source cards | Search 3,751 curated chunks |
 
-| 🔍 **Source Cards**  | 🌓 **Live Theming** | 📜 **History** |
+|  **Source Cards**  |  **Live Theming** |  **History** |
 |:---:|:---:|:---:|
 | ![Sources](assets/sources.svg) | ![Theme](assets/theme.svg) | ![History](assets/history.svg) |
 | Full chunk text, authority badge | Light/Dark/System + model path | Instant switch, OS-follow | Per-turn delete + clear all |
