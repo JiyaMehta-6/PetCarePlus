@@ -1,0 +1,30 @@
+# PetCare+ runtime + developer dependencies
+#
+# Install (CPU torch wheel):
+#   python -m venv .venv
+#   .venv\Scripts\Activate.ps1
+#   pip install -r requirements.txt
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu   # if not already present
+
+# --- UI ---------------------------------------------------------------
+PySide6==6.11.2
+
+# --- Vector search + math --------------------------------------------
+numpy==2.5.2
+faiss-cpu==1.15.0
+scipy==1.18.1
+
+# --- Local embeddings + generation -----------------------------------
+transformers==5.15.1
+sentencepiece==0.2.2
+huggingface-hub==1.28.0
+
+# torch (CPU build). On Windows install the CPU wheel explicitly:
+#   pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0+cpu
+
+# Optional: 4-bit generation on CUDA (only needed on a GPU machine)
+# bitsandbytes==0.45.5
+
+# --- Developer / QA ----------------------------------------------------
+pytest==8.4.2

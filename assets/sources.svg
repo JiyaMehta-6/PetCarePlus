@@ -1,0 +1,34 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7f5ef" />
+      <stop offset="100%" style="stop-color:#eef0f2" />
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect x="20" y="20" width="560" height="360" rx="16" fill="white" filter="url(#sh)"/>
+  <rect x="20" y="20" width="560" height="56" rx="16" fill="#174a43"/>
+  <text x="50" y="56" font-family="Segoe UI" font-size="18" font-weight="700" fill="white">📖  Source Cards</text>
+  <!-- Source card 1 -->
+  <g filter="url(#sh)">
+    <rect x="40" y="100" width="520" height="80" rx="10" fill="#f0fdfa" stroke="#9ed1c3" stroke-width="1"/>
+    <text x="60" y="125" font-family="Segoe UI" font-size="14" font-weight="700" fill="#174a43">[1] Appropriate food for Indian/Indie Dog</text>
+    <text x="60" y="145" font-family="Segoe UI" font-size="11" fill="#6b8a83">Source: WSAVA Global Nutrition Guidelines (veterinary_guideline)</text>
+    <text x="60" y="162" font-family="Segoe UI" font-size="11" fill="#9ed1c3">Indie dogs do well on a complete balanced diet; many thrive on measured portions...</text>
+  </g>
+  <!-- Source card 2 -->
+  <g filter="url(#sh)">
+    <rect x="40" y="200" width="520" height="80" rx="10" fill="#fef7f0" stroke="#f5a623" stroke-width="1"/>
+    <text x="60" y="225" font-family="Segoe UI" font-size="14" font-weight="700" fill="#b87400">[2] Daily feeding amount for Indian/Indie Dog</text>
+    <text x="60" y="245" font-family="Segoe UI" font-size="11" fill="#6b8a83">Source: PetCare+ curated guidance (developer_summary)</text>
+    <text x="60" y="262" font-family="Segoe UI" font-size="11" fill="#f5a623">A typical adult Indie dog (12–25 kg) needs roughly 220–320 g dry food per day...</text>
+  </g>
+  <!-- Source card 3 -->
+  <g filter="url(#sh)">
+    <rect x="40" y="300" width="520" height="80" rx="10" fill="#f0f4ff" stroke="#4a90d9" stroke-width="1"/>
+    <text x="60" y="325" font-family="Segoe UI" font-size="14" font-weight="700" fill="#2d5aa0">[3] Lifespan and commitment for Indian/Indie Dog</text>
+    <text x="60" y="345" font-family="Segoe UI" font-size="11" fill="#6b8a83">Source: PetCare+ curated guidance (developer_summary)</text>
+    <text x="60" y="362" font-family="Segoe UI" font-size="11" fill="#4a90d9">Indie Dog is a long-term commitment (typically about 10–14 years)...</text>
+  </g>
+</svg>

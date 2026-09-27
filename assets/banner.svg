@@ -1,0 +1,40 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d5a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#174a43;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff" />
+      <stop offset="100%" style="stop-color:#9ed1c3" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <circle cx="150" cy="150" r="120" fill="#0d233b" opacity="0.3"/>
+  <circle cx="1050" cy="150" r="100" fill="#0d233b" opacity="0.2"/>
+  <circle cx="600" cy="150" r="80" fill="#9ed1c3" opacity="0.1"/>
+  <!-- Paw print decorative elements -->
+  <g fill="#9ed1c3" opacity="0.15">
+    <ellipse cx="200" cy="80" rx="12" ry="18" transform="rotate(-30 200 80)"/>
+    <ellipse cx="220" cy="65" rx="8" ry="10"/>
+    <ellipse cx="185" cy="65" rx="8" ry="10"/>
+    <ellipse cx="200" cy="78" rx="10" ry="14"/>
+    <ellipse cx="1000" cy="220" rx="12" ry="18" transform="rotate(30 1000 220)"/>
+    <ellipse cx="1020" cy="235" rx="8" ry="10"/>
+    <ellipse cx="985" cy="235" rx="8" ry="10"/>
+    <ellipse cx="1000" cy="228" rx="10" ry="14"/>
+  </g>
+  <text x="600" y="135" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="56" font-weight="800" fill="url(#textGrad)" filter="url(#glow)">PetCare+</text>
+  <text x="600" y="185" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="22" fill="#d4e9e2" font-weight="400">Evidence-grounded · 100% Offline · 70 Species</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="14" fill="#9ed1c3" opacity="0.8">PySide6 • BGE-small • Qwen2.5 • FAISS • GPL-3.0</text>
+  <!-- Subtle divider -->
+  <line x1="300" y1="250" x2="900" y2="250" stroke="#9ed1c3" stroke-width="1" opacity="0.3" stroke-dasharray="8,4"/>
+</svg>

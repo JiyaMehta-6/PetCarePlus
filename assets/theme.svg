@@ -1,0 +1,46 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7f5ef" />
+      <stop offset="100%" style="stop-color:#eef0f2" />
+    </linearGradient>
+    <linearGradient id="bgD" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#111918" />
+      <stop offset="100%" style="stop-color:#1a2320" />
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.08"/></filter>
+  </defs>
+  <!-- Light half -->
+  <rect x="0" y="0" width="300" height="400" fill="url(#bgL)"/>
+  <rect x="20" y="20" width="260" height="360" rx="16" fill="white" filter="url(#sh)"/>
+  <rect x="20" y="20" width="260" height="56" rx="16" fill="#174a43"/>
+  <text x="50" y="56" font-family="Segoe UI" font-size="16" font-weight="700" fill="white">Light</text>
+  <text x="220" y="56" text-anchor="end" font-size="11" fill="rgba(255,255,255,0.7)">#F7F5EF</text>
+  <g filter="url(#sh)">
+    <rect x="40" y="100" width="220" height="140" rx="12" fill="#f0fdfa" stroke="#9ed1c3" stroke-width="1"/>
+    <text x="150" y="135" text-anchor="middle" font-family="Segoe UI" font-size="14" font-weight="600" fill="#174a43">Surface</text>
+    <rect x="80" y="165" width="140" height="32" rx="16" fill="#174a43"/>
+    <text x="150" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="white">Primary Button</text>
+    <rect x="80" y="210" width="140" height="32" rx="16" fill="#e8ecef" stroke="#d0d5dd"/>
+    <text x="150" y="230" text-anchor="middle" font-size="11" fill="#6b8a83">Secondary</text>
+  </g>
+  <!-- Dark half -->
+  <rect x="300" y="0" width="300" height="400" fill="url(#bgD)"/>
+  <rect x="320" y="20" width="260" height="360" rx="16" fill="#1e2a28" filter="url(#sh)"/>
+  <rect x="320" y="20" width="260" height="56" rx="16" fill="#9ed1c3"/>
+  <text x="350" y="56" font-family="Segoe UI" font-size="16" font-weight="700" fill="#111918">Dark</text>
+  <text x="550" y="56" text-anchor="end" font-size="11" fill="rgba(158,209,195,0.7)">#111918</text>
+  <g filter="url(#sh)">
+    <rect x="340" y="100" width="220" height="140" rx="12" fill="#253834" stroke="#9ed1c3" stroke-width="1"/>
+    <text x="450" y="135" text-anchor="middle" font-family="Segoe UI" font-size="14" font-weight="600" fill="#9ed1c3">Surface</text>
+    <rect x="380" y="165" width="140" height="32" rx="16" fill="#9ed1c3"/>
+    <text x="450" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="#111918">Primary Button</text>
+    <rect x="380" y="210" width="140" height="32" rx="16" fill="#2d3d38" stroke="#3d5a52"/>
+    <text x="450" y="230" text-anchor="middle" font-size="11" fill="#6b8a83">Secondary</text>
+  </g>
+  <!-- System sync indicator -->
+  <g filter="url(#sh)">
+    <rect x="340" y="270" width="220" height="50" rx="10" fill="#253834" stroke="#4a90d9" stroke-width="1"/>
+    <text x="450" y="295" text-anchor="middle" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4a90d9">🔄  System theme sync: ON</text>
+  </g>
+</svg>

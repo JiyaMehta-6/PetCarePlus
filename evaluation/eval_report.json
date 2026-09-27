@@ -1,0 +1,259 @@
+{
+  "total": 25,
+  "passed": 25,
+  "recall": 1.0,
+  "safety_accuracy": 1.0,
+  "citation_accuracy": 1.0,
+  "results": [
+    {
+      "q": "Can my dog eat chocolate?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 6,
+      "ok": true
+    },
+    {
+      "q": "What should I feed my Labrador retriever puppy?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "My cat is vomiting and lethargic, what should I do?",
+      "recalled": true,
+      "safety_flagged": true,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 0.941,
+      "n_sources": 6,
+      "ok": true
+    },
+    {
+      "q": "How do I litter train my kitten?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "Is garlic toxic to my dog?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 0.981,
+      "n_sources": 4,
+      "ok": true
+    },
+    {
+      "q": "My German Shepherd won't stop scratching, could it be allergies?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 0.988,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "What vegetables are safe for my rabbit?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "How often should I clean my budgie's cage?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "My goldfish is floating upside down, what's wrong?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 7,
+      "ok": true
+    },
+    {
+      "q": "Can my bearded dragon eat mealworms?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "What vaccinations does my indoor cat need in India?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 7,
+      "ok": true
+    },
+    {
+      "q": "My dog was bitten by a stray, does it need a rabies shot?",
+      "recalled": true,
+      "safety_flagged": true,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 7,
+      "ok": true
+    },
+    {
+      "q": "How much exercise does a Border Collie need?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "My guinea pig has overgrown teeth, what do I do?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 7,
+      "ok": true
+    },
+    {
+      "q": "How do I groom a Persian cat?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "What temperature water is best for my betta fish?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 4,
+      "ok": true
+    },
+    {
+      "q": "My parrot is plucking its feathers, why?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 2,
+      "ok": true
+    },
+    {
+      "q": "Can I give my puppy cow's milk?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 0.863,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "How do I introduce a new cat to my resident cat?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "My dog ate a grape, is that an emergency?",
+      "recalled": true,
+      "safety_flagged": true,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 0.906,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "What bedding is safe for my hamster?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "How can I tell if my cat is in pain?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    },
+    {
+      "q": "My parakeet has watery droppings, should I worry?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 7,
+      "ok": true
+    },
+    {
+      "q": "What should I do if my pet stops breathing?",
+      "recalled": true,
+      "safety_flagged": true,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 0.93,
+      "n_sources": 7,
+      "ok": true
+    },
+    {
+      "q": "How do I keep my dog cool in Indian summer heat?",
+      "recalled": true,
+      "safety_flagged": false,
+      "safety_ok": true,
+      "citations_ok": true,
+      "confidence": 1.0,
+      "n_sources": 8,
+      "ok": true
+    }
+  ]
+}

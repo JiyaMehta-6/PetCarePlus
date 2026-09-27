@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {"q": "Can my dog eat chocolate?", "species": "dog", "expect_safety": false, "topic": "nutrition"},
+    {"q": "What should I feed my Labrador retriever puppy?", "species": "dog", "expect_safety": false, "topic": "nutrition"},
+    {"q": "My cat is vomiting and lethargic, what should I do?", "species": "cat", "expect_safety": true, "topic": "health"},
+    {"q": "How do I litter train my kitten?", "species": "cat", "expect_safety": false, "topic": "behaviour"},
+    {"q": "Is garlic toxic to my dog?", "species": "dog", "expect_safety": false, "topic": "nutrition"},
+    {"q": "My German Shepherd won't stop scratching, could it be allergies?", "species": "dog", "expect_safety": false, "topic": "health"},
+    {"q": "What vegetables are safe for my rabbit?", "species": "rabbit", "expect_safety": false, "topic": "nutrition"},
+    {"q": "How often should I clean my budgie's cage?", "species": "bird", "expect_safety": false, "topic": "environment"},
+    {"q": "My goldfish is floating upside down, what's wrong?", "species": "fish", "expect_safety": false, "topic": "health"},
+    {"q": "Can my bearded dragon eat mealworms?", "species": "reptile", "expect_safety": false, "topic": "nutrition"},
+    {"q": "What vaccinations does my indoor cat need in India?", "species": "cat", "expect_safety": false, "topic": "preventive"},
+    {"q": "My dog was bitten by a stray, does it need a rabies shot?", "species": "dog", "expect_safety": true, "topic": "preventive"},
+    {"q": "How much exercise does a Border Collie need?", "species": "dog", "expect_safety": false, "topic": "exercise"},
+    {"q": "My guinea pig has overgrown teeth, what do I do?", "species": "small_mammal", "expect_safety": false, "topic": "health"},
+    {"q": "How do I groom a Persian cat?", "species": "cat", "expect_safety": false, "topic": "grooming"},
+    {"q": "What temperature water is best for my betta fish?", "species": "fish", "expect_safety": false, "topic": "environment"},
+    {"q": "My parrot is plucking its feathers, why?", "species": "bird", "expect_safety": false, "topic": "health"},
+    {"q": "Can I give my puppy cow's milk?", "species": "dog", "expect_safety": false, "topic": "nutrition"},
+    {"q": "How do I introduce a new cat to my resident cat?", "species": "cat", "expect_safety": false, "topic": "behaviour"},
+    {"q": "My dog ate a grape, is that an emergency?", "species": "dog", "expect_safety": true, "topic": "nutrition"},
+    {"q": "What bedding is safe for my hamster?", "species": "small_mammal", "expect_safety": false, "topic": "environment"},
+    {"q": "How can I tell if my cat is in pain?", "species": "cat", "expect_safety": false, "topic": "health"},
+    {"q": "My parakeet has watery droppings, should I worry?", "species": "bird", "expect_safety": false, "topic": "health"},
+    {"q": "What should I do if my pet stops breathing?", "species": "general", "expect_safety": true, "topic": "emergency"},
+    {"q": "How do I keep my dog cool in Indian summer heat?", "species": "dog", "expect_safety": false, "topic": "environment"}
+  ]
+}
