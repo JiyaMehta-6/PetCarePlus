@@ -297,5 +297,5 @@ The knowledge base is **developer-curated and synthesised** from openly availabl
 ---
 
 <p align="center">
-  <sub>Built with ❤️ for pet parents everywhere — <a href="https://github.com/petcareplus/petcareplus">PetCare+ on GitHub</a></sub>
+  <sub>Built with ❤️ for pet parents everywhere</sub>
 </p>
